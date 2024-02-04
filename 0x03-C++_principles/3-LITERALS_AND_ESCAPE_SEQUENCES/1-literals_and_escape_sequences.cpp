@@ -12,6 +12,6 @@ using namespace std;
 */
 int main (void)
 {
-    cout << "Dear sir\\madam\n\nHow are you?\n\n\nmy name is \"mohammed\" , nice to meet you\n"
+    cout << "Dear sir\\madam\n\nHow are you?\n\n\nmy name is \"mohammed\" , nice to meet you\n";
     return 0;
 }
