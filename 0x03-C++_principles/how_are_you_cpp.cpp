@@ -1,6 +1,6 @@
 #include <iostream>
-int main()
+int main(void)
 {
-    std::cout << "iam abdo";
+    std::cout <<"Hi, Iam C++, you can call me CPP";
     return 0;
 }
