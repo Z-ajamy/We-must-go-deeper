@@ -1,1 +1,1 @@
-output
+output_in_cpp
