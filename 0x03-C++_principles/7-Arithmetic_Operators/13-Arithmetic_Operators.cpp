@@ -15,7 +15,7 @@ using namespace std;
 
 int main ()
 {
-    float num1 , num2  ;
+    float num1 , num2 ;
     cout << "Enter the invoice value\n" ;
     cin >> num1 ;
     cout << "Enter what the customer paid\n" ;
