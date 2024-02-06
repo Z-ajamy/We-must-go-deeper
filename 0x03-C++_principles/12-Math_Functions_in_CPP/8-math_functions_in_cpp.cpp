@@ -27,6 +27,6 @@ int main ()
 
     r = pow(num , p);
 
-    cout << "__________________\n" << r << endl;
+    cout << "__________________\n" << floor(r) << endl << ceil(r) << endl << abs(r) << endl;
     return 0;
 }
