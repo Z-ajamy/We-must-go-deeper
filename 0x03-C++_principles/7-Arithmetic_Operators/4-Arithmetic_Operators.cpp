@@ -15,5 +15,12 @@ using namespace std;
 
 int main ()
 {
-    
+    int num1 , num2 , temp ;
+    cout << "inter the 2 numbers to swap\n" ;
+    cin >> num1 >> num2 ;
+    temp = num1;
+    num1 = num2;
+    num2 = temp;
+    cout << "the swap gives " << num1 << " " << num2 << endl;
+    return 0;
 }
