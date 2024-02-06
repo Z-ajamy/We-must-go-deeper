@@ -24,6 +24,6 @@ int main ()
     cin >> Circumference;
 
     Area = pow(Circumference / 2 , 2) / PI;
-    cout << "Circle Area is = " << Area << endl;
+    cout << "Circle Area is = " << ceil(Area) << endl;
     return 0;
 }

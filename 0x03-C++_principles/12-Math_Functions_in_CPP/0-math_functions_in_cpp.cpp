@@ -25,6 +25,6 @@ int main ()
     cin >> Side;
 
     Area = Side * sqrt( pow( Diagonal , 2 ) - pow( Side , 2) );
-    cout << "Rectangle area Through Diagonal and Side Area is = " << Area << endl;
+    cout << "Rectangle area Through Diagonal and Side Area is = " << round(Area) << endl;
 return 0;
 }

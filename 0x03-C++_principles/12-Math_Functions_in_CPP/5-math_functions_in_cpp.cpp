@@ -27,6 +27,6 @@ int main ()
 
 
     Area = pow(bise / 2 , 2) * PI * ((2 * high - bise) / (2 * high + bise));
-    cout << "Circle Area is = " << Area << endl;
+    cout << "Circle Area is = " << floor(Area) << endl;
     return 0;
 }
