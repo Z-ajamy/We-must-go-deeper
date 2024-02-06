@@ -15,7 +15,7 @@ using namespace std;
 
 int main ()
 {
-    int num1 , num2 , temp ;
+    short int num1 , num2 , temp ;
     cout << "inter the 2 numbers to swap\n" ;
     cin >> num1 >> num2 ;
     temp = num1;
