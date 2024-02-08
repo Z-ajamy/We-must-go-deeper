@@ -25,7 +25,6 @@ void fun_name (void)
 }
 
 #include <iostream>
-#include <iostream>
 int main(void)
 {
     fun_name();
