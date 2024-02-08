@@ -15,7 +15,7 @@ using namespace std;
  * 
 */
 
-void fun_name (void)
+void fun_sq (void)
 {
     std::cout << "************\n";
     std::cout << "************\n";
@@ -27,6 +27,6 @@ void fun_name (void)
 #include <iostream>
 int main(void)
 {
-    fun_name();
+    fun_sq();
     return 0;
 }
