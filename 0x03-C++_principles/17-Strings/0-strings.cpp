@@ -32,6 +32,7 @@ int main()
     n = i * j;
 
     cout<< "____________\n" << name << endl;
+    cout << "the length of your name is " << name.length() << endl;
     cout << num3 << endl << n << endl;
 
 return 0;
