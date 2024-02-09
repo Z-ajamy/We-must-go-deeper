@@ -19,17 +19,21 @@ using namespace std;
  * type_return fun_name (Parameter1 , Parameter2) -----> function
  * 
 */
-void swap(int& a, int& b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
-int main()
-{
-    int a , b;
-    cout << " inter two numbers\n";
-    cin >> a >> b;
-    swap(a , b);
-    cout << "________________\n" << a << endl << b << endl ;
 
+unsigned short int rectangle_area (float a, float b)
+{
+    unsigned int A;
+    A = a * b;
+    return A;
+}
+
+int main ()
+{
+    unsigned short int num1 , num2 ;
+    cout << "give me the The length of the rectangle\n";
+    cin >> num1;
+    cout << "give me the The Width of the rectangle\n";
+    cin >> num2;
+    cout << "the rectangle area is " << rectangle_area(num1 , num2) << endl;
+return 0;
 }
