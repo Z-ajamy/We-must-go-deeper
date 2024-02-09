@@ -29,5 +29,5 @@ int main ()
     cin >> num1 ;
     cin >> num2 ;
     swap(num1 , num2);
-    cout << "______________\n"<< num1 << endl << num2 <<endl ;
+    cout << "______________\n"<< num1 << endl << num2 << endl ;
 }
