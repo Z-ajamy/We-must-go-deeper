@@ -14,7 +14,7 @@ using namespace std;
  *      fun_name();  ----> call the function to return the value
  *  }
  * 
- * void fun_name () -----> procedure
+ * void procedure_name () -----> procedure
  * 
  * type_return fun_name () -----> function
  * 

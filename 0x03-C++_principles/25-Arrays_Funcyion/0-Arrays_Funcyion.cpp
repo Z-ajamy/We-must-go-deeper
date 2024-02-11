@@ -34,18 +34,20 @@ void cin_fun (float grade[3])
     cin >> grade [2] ;
 }
 
-void cout_fun (float grade[3])
+float t_fun (float grade[3])
 {
     float t ;
     t = grade [0] + grade [1] + grade [2] ;
     t /=3 ;
-    cout << "_______________________\nyour average is " << t << endl ;
+    return t;
 }
 
 int main ()
 {
     float grade [3];
     cin_fun(grade);
-    cout_fun(grade);
+
+    cout << "_______________________\nyour average is " << t_fun(grade) << endl ;
+
     return 0;
 }
