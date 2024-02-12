@@ -9,9 +9,10 @@ using namespace std ;
  */
 int main ()
 {
-    int j ;
+    short int j ;
     cin >> j ;
-    for (int i = 1; i <= j ; i++)
+    cout << "________\n" ;
+    for (int i = j; 1 <= i ; i--)
     {
         cout << i << " \n";
     }
