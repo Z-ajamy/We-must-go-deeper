@@ -7,28 +7,26 @@ using namespace std;
  *          |--- {body}     <----------------------------------
  *
  */
-int fac(int j)
+int pow(int a, int b)
 {
-    int a = 1;
-    if (j > 0)
+    if (b >= 0)
     {
-        for (int i = 1; i <= j; i++)
+        int n = 1;
+        for (int i = 1; i <= b; i++)
         {
-            a *= i;
+            n *= a;
         }
-        return a;
+        return n;
     }
     else
-    {
-        cout << "enter positive number\n";
         return 0;
-    }
 }
+
 int main()
 {
-    int j;
+    int i, j;
+    cin >> i >> j;
 
-    cin >> j;
-    cout << fac(j) << endl ;
-    return 0;
+    cout << "___________\n"
+         << pow(i, j) << endl;
 }
