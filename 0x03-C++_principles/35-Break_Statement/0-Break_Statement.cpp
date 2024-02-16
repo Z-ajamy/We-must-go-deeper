@@ -7,6 +7,7 @@ using namespace std;
  * while (condition)
  *  {
  *      body;
+ *      break; -------------> Exit the loop
  *  }
  * 
 */
