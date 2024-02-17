@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Enter your README"
+read var1
+echo "${var1}" > README.md
+git add .
+echo "Enter your COMMIT"
+read var2
+git commit -m "${var2}"
+git push
