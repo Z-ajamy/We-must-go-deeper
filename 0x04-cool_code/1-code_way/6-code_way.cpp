@@ -4,21 +4,23 @@ using namespace std;
 int read_num ()
 {
     cout << "give me a number\n";
-    float num;
+    int num;
     cin >> num;
     return num;
 }
 float half_num (float num)
 {
-    num /= 2;
-    return num;
+    float h_num;
+    h_num = num / 2;
+    return h_num;
 }
-void print_num(float num)
+void print_num(int num)
 {
-    cout << "half of the number is " << num << endl;
+    string R = "the half of " + to_string(num) + " is " + to_string (half_num(num));
+    cout << R << endl;
 }
 int main ()
 {
-    print_num(half_num(read_num()));
+    print_num(read_num());
     return 0;
 }
