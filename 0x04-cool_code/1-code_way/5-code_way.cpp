@@ -25,12 +25,12 @@ string full_name(struct str_name name)
     return full_name;
 }
 
-void print_name (string full_name)
+void print_name(string full_name)
 {
     cout << full_name << endl;
 }
 
-int main ()
+int main()
 {
     print_name(full_name(read()));
     return 0;

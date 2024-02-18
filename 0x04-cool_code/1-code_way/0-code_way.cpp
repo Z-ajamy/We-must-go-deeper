@@ -1,16 +1,12 @@
 #include <iostream>
 using namespace std;
 
-
-
-
-
-void print_name (string out)
+void print_name(string out)
 {
-    cout << "my name is : " << out << endl ;
+    cout << "my name is : " << out << endl;
 }
 
 int main()
 {
-    print_name ("abdo agamy");
+    print_name("abdo agamy");
 }

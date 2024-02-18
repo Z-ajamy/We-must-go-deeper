@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
-void read_num(int &num1 , int &num2 , int &num3)
+void read_num(int &num1, int &num2, int &num3)
 {
     cout << "enter your first number\n";
     cin >> num1;
@@ -12,9 +11,9 @@ void read_num(int &num1 , int &num2 , int &num3)
     cin >> num3;
 }
 
-int sum (int num1 , int num2 , int num3)
+int sum(int num1, int num2, int num3)
 {
-    return (num1 + num2 + num3) ;
+    return (num1 + num2 + num3);
 }
 
 int avrege(int sum)
@@ -22,16 +21,15 @@ int avrege(int sum)
     return sum /= 3;
 }
 
-void print (int num1 ,int num2 ,int num3)
+void print(int num1, int num2, int num3)
 {
-    cout << "the avrege of " << num1 << ", " << num2 <<
-    ", " << num3 << " = " << avrege(sum(num1 , num2 , num3)) << endl;
+    cout << "the avrege of " << num1 << ", " << num2 << ", " << num3 << " = " << avrege(sum(num1, num2, num3)) << endl;
 }
 
-int main ()
+int main()
 {
-    int num1 , num2 , num3;
-    read_num(num1 , num2 , num3);
-    print(num1 , num2 , num3);
+    int num1, num2, num3;
+    read_num(num1, num2, num3);
+    print(num1, num2, num3);
     return 0;
 }
