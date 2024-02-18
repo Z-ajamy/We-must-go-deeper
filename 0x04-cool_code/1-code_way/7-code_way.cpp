@@ -18,9 +18,9 @@ en_pass_or_faild is_pass (int degree)
     else
         return en_pass_or_faild::faild;
 }
-void print_state (en_pass_or_faild is_pass)
+void print_state (int degree)
 {
-    if (is_pass == faild)
+    if (is_pass(degree) == en_pass_or_faild::faild)
     {
         cout << "faild\n";
     }
@@ -30,6 +30,6 @@ void print_state (en_pass_or_faild is_pass)
 
 int main ()
 {
-    print_state(is_pass(read_degree()));
+    print_state(read_degree());
     return 0;
 }
