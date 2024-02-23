@@ -3,7 +3,7 @@ using namespace std;
 
 bool validate_num(int num, int from, int to)
 {
-    return(num >= from && num <= to);
+    return (num >= from && num <= to);
 }
 
 int read_validate_age()
@@ -17,12 +17,12 @@ int read_validate_age()
         {
             cout << "age is invalid....\ntry again" << endl;
         }
-        
+
     } while (!validate_num(age, 18, 50));
-    return age;    
+    return age;
 }
 
-void print_result ()
+void print_result()
 {
     read_validate_age();
     cout << "valid age!" << endl;
