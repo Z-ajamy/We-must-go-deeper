@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-enum en_pass_or_failed {pass  , fail};
+enum en_pass_or_failed
+{
+    pass,
+    fail
+};
 void read_num(short int &degree1, short int &degree2, short int &degree3)
 {
     cout << "enter your first degree\n";
@@ -22,7 +26,7 @@ float avrege(float sum)
     return (sum /= 3);
 }
 
-en_pass_or_failed pass_or_failed (float av_degree)
+en_pass_or_failed pass_or_failed(float av_degree)
 {
     if (av_degree >= 50)
     {
@@ -42,7 +46,6 @@ void print(short int degree1, short int degree2, short int degree3)
     else
         cout << "pass\n";
 }
-
 
 int main()
 {
