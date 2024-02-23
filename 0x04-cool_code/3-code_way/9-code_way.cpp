@@ -4,8 +4,11 @@ using namespace std;
 int read_num()
 {
     int num;
-    cout << "enter the positive number\n";
-    cin >> num;
+    do
+    {
+        cout << "enter the positive number\n";
+        cin >> num;
+    } while (num < 0);
     return num;
 }
 
