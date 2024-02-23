@@ -16,7 +16,7 @@ float circle_area(int Length_of_the_side, int base)
     return (PI * pow(base, 2) * (1.0/4) * (2 * Length_of_the_side - base) / (2 * Length_of_the_side + base));
 }
 
-void print(float area, int Length_of_the_side, int base)
+void print(float area)
 {
     cout << "______________\nthe circle area = "
          << area << endl;
@@ -25,6 +25,6 @@ int main()
 {
     int Length_of_the_side, base;
     read_num(Length_of_the_side, base);
-    print(circle_area(Length_of_the_side, base), Length_of_the_side, base);
+    print(circle_area(Length_of_the_side, base));
     return 0;
 }
