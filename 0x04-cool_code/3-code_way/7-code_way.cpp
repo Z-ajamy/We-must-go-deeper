@@ -11,11 +11,11 @@ int read_num()
 
 void loop_nums(int num)
 {
-    int i = 0;
-    while (i <= num)
+    int i = num;
+    while (i >= 0)
     {
         cout << i << endl;
-        i++;
+        i--;
     }
 }
 
