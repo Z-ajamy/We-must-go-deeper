@@ -12,7 +12,8 @@ int read_Side_of_the_square()
 
 float circle_area(int Side_of_the_square)
 {
-    return (pow(Side_of_the_square, 2) * (1.0/4) * 3.14);
+    const float PI = 3.14;
+    return (pow(Side_of_the_square, 2) * (1.0/4) * PI);
 }
 
 void print(float area)

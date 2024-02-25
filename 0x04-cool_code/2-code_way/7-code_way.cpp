@@ -12,7 +12,8 @@ int read_Radius()
 
 float circle_area(int Radius)
 {
-    return (pow(Radius, 2) * 3.14);
+    const float PI = 3.14;
+    return (pow(Radius, 2) * PI);
 }
 
 void print(float area)

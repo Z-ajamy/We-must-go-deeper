@@ -12,7 +12,8 @@ int read_Diameter()
 
 float circle_area(int Diameter)
 {
-    return (pow(Diameter, 2) * (1.0/4) * 3.14);
+    const float PI = 3.14;
+    return (pow(Diameter, 2) * (1.0/4) * PI);
 }
 
 void print(float area)
