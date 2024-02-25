@@ -25,6 +25,7 @@ en_operators operators()
     {
         cout << "enter operator" << endl;
         cin >> op;
+        cin.ignore(INT16_MAX, '\n');
     } while (op != '+' && op != '-' && op != '*' && op != '*' && op != '/' && op != '%');
 
     return (en_operators)op;
