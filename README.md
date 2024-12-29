@@ -1,1 +1,1 @@
-code_way
+C++
